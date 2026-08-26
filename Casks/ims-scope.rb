@@ -5,10 +5,10 @@ cask "ims-scope" do
   sha256 arm:   "87e7ec39585967c471d7e17b707911fd2ce36df0008986fddecb6c31c9f9be90",
          intel: "619c60fdd264a29a3303ade5b2af267aca384f6fcdaac75511bb189ea09b53e6"
 
-  url "https://github.com/Nibamot/freelens/releases/download/v#{version}/IMS-Scope-#{version}-macos-#{arch}.dmg"
+  url "https://github.com/Nibamot/ims-scope/releases/download/v#{version}/IMS-Scope-#{version}-macos-#{arch}.dmg"
   name "IMS-Scope"
   desc "Kubernetes IDE, fork of Freelens with a few incremental features"
-  homepage "https://github.com/Nibamot/freelens"
+  homepage "https://github.com/Nibamot/ims-scope"
 
   auto_updates false
 

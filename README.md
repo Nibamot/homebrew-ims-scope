@@ -1,6 +1,6 @@
 # homebrew-ims-scope
 
-Homebrew tap for [IMS-Scope](https://github.com/Nibamot/freelens), a fork of
+Homebrew tap for [IMS-Scope](https://github.com/Nibamot/ims-scope), a fork of
 [Freelens](https://github.com/freelensapp/freelens).
 
 ## Install
