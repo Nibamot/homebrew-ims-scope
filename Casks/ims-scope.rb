@@ -1,9 +1,9 @@
 cask "ims-scope" do
   arch arm: "arm64", intel: "amd64"
 
-  version "2.0.1"
-  sha256 arm:   "281483ffdbaeb46b25952d291bc98bfd86c1908131aa4701bc2fd03d41db9c99",
-         intel: "b6322b608f04e42e1fbab0cd96f7c7944f750a2844c90f431628fd4b16c982b7"
+  version "2.0.2"
+  sha256 arm:   "07b2edd328bd3d6e81097e0f42965aaa0e7a27a6896c2aab01123fd110409982",
+         intel: "499d5bdd53c2a1453db22187a19a30113efee81373ff9f8097cab3dd2ecf2be7"
 
   url "https://github.com/Nibamot/ims-scope/releases/download/v#{version}/IMS-Scope-#{version}-macos-#{arch}.dmg"
   name "IMS-Scope"
