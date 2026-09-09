@@ -14,7 +14,7 @@ cask "ims-scope" do
 
   app "IMS-Scope.app"
 
-  postflight do
+  postflight_steps do
     system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/IMS-Scope.app"]
   end
 
